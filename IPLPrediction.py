@@ -24,7 +24,7 @@ def dismissalEncoding(rows, dismissals):
 	return r
 
 def encode():
-	dataset = pd.read_csv("/Users/bhundar/Downloads/IPLPredictor/Data/deliveries.csv")
+	dataset = pd.read_csv("/Users/bhundar/Desktop/IPLPredictor/Data/deliveries.csv")
 	innings = dataset[dataset.columns[1]].values
 	over = dataset[dataset.columns[4]].values
 	ball = dataset[dataset.columns[5]].values
